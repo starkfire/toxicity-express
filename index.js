@@ -3,6 +3,8 @@ const helmet = require('helmet')
 
 require('@tensorflow/tfjs')
 
+const app = express()
+
 app.use(helmet())
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
