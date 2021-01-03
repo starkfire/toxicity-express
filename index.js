@@ -1,7 +1,7 @@
 const express = require('express')
 const helmet = require('helmet')
 
-require('@tensorflow/tfjs')
+require('@tensorflow/tfjs-node')
 
 const app = express()
 
